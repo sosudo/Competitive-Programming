@@ -1,0 +1,18 @@
+Signed integers can be negative or positive while unsigned integers are only positive
+Shorts are 16 bits long while longs are 32 bits long
+(Long longs are 64 bits long)
+ints are signed by defauls and their length can vary based on the platform (16 bits guaranteed)
+bools are used as booleans
+floats are single precision, doubles are double precision, long doubles have extended precision
+floating types in cpp can have special values:
+1) infinity
+2) negative infinity
+3) negative zero
+4) NaN
+
+Character addition and subtraction leads to an ASCII operation
+printf("%.9f\n", x); will print the floating number x to 9 decimal points
+
+typedef can be used to rewrite types instead of #define
+
+If the type must be inferred, auto can be used instead of a traditional type declaration
